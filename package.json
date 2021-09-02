@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ganache": "ganache --wallet.seed myCustomSeed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Meuss/blockchain-test/issues"
   },
-  "homepage": "https://github.com/Meuss/blockchain-test#readme"
+  "homepage": "https://github.com/Meuss/blockchain-test#readme",
+  "dependencies": {
+    "ganache": "^6.4.5"
+  }
 }
